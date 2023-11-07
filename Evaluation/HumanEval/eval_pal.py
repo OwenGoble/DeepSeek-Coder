@@ -23,6 +23,7 @@ if __name__ == '__main__':
     parser.add_argument("--logdir", type=str, default="")
     parser.add_argument("--language", type=str, default="")
     parser.add_argument("--dataroot", type=str, default="")
+ parser.add_argument("--language", type=str, default="")
     args = parser.parse_args()
 
     logdir = args.logdir
